@@ -1,0 +1,11 @@
+dataset: transactions
+domain: fintech
+primary_key: transaction_id
+schema:
+  transaction_id: string
+  amount: float
+  currency: string
+  created_at: timestamp
+quality:
+  - not_null: transaction_id
+  - min_value: amount > 0

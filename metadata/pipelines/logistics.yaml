@@ -1,0 +1,5 @@
+pipelines:
+  - name: shipments
+    source_type: api
+    load_type: incremental
+    layer: bronze

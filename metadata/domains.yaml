@@ -1,0 +1,9 @@
+domains:
+  - name: ecommerce
+    description: Customer, order, and product analytics
+
+  - name: fintech
+    description: Financial transactions and payments
+
+  - name: logistics
+    description: Shipment, delivery, and inventory tracking

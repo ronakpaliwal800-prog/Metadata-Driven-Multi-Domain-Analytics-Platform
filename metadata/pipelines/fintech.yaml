@@ -1,0 +1,5 @@
+pipelines:
+  - name: transactions
+    source_type: csv
+    load_type: incremental
+    layer: bronze
